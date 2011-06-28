@@ -1,0 +1,11 @@
+{
+  "name": "Speechify",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["speechify.js"]
+    }
+  ],
+  "run_at":"document_idle"
+}
