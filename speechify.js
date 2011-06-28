@@ -1,0 +1,1 @@
+javascript:function speechify() {var i; for(i = 0; current = document.getElementsByTagName('input')[i]; i++) { current.setAttribute("x-webkit-speech", "speech");}}; speechify();
